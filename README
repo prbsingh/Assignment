@@ -1,0 +1,34 @@
+Metaformers Assignment
+    Submitted by Prabhjot Singh on September 15, 2015.
+========================================================================================================================
+Goals:
+    1. Parse a comma separated value (CSV) file.
+    2. Create Objects to represent each line in the file.
+    3. Provide methods that will return the Object with a given the PRODUCT_ID or the DESCRIPTION.
+    4. Store the Objects in a database.
+    5. Print the records from the database table.
+    6. Create A Github project containing your code.
+
+How to Run:
+    1. Navigating to project folder in powershell/terminal.
+    2. Type "ant start". This builds the required jar and begins execution of the Main class.
+
+Execution Summary:
+    The program start execution with main and procedes in the following manner: 
+        1. Parse products.csv file and create Linked-List of Products.
+        2. Create a DataStore and a Database client object.
+        3. Add all products to database.
+        4. Print all products from database.
+        5. Search database and print product with id = 980005.
+        6. Search database and print product with description = "Printer Cable".
+        7. Close DataStore and end program.
+
+Required Resources:
+    1. Derby.jar placed in the resources folder
+    2. Products.csv file places in the resources folder
+
+Possible future improvements:
+    1. Allow the user to enter input file name to allow working with different product files.
+    2. Use a looping, interactive menu to allow multiple search operations, with varing information to match.
+
+========================================================================================================================
